@@ -8,16 +8,19 @@ import Link from "next/link";
 
 Amplify.configure(outputs);
 
-export default function App() {
-
+export default function HomePage() {
   return (
-    <main className="landing-page">
-      
-      <section className="hero">
-        <h2>Willkommen bei Physiotherapie Antonio Baptista</h2>
-        <p>Ihr Weg zu besserer Gesundheit beginnt hier.</p>
-      </section>
-      
-    </main>
+    <section className="home">
+      <h1>Willkommen bei Physiotherapie Antonio Baptista</h1>
+      <p>
+        Ihre Gesundheit und Ihr Wohlbefinden sind unsere Priorität. Wir bieten
+        professionelle Physiotherapie-Dienstleistungen an, um Ihre Mobilität und
+        Lebensqualität zu verbessern.
+      </p>
+      <Link href="/contact">
+        <button>Kontaktieren Sie uns</button>
+      </Link>
+    </section>
   );
 }
+

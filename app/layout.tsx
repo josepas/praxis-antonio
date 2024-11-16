@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import "./app.css";
-import Image from "next/image";
+import Navbar from "./components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,25 +19,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body>
-        <header className="navbar">
-          <div className="logo-container">
-            <Image
-              src="/logo.png"
-              alt="Physiotherapie Antonio Baptista Logo"
-              width={300} /* Set the desired width */
-              height={100} /* Set the desired height */
-            />
-          </div>
-          <h1>Physiotherapie Antonio Baptista</h1>
-          <nav>
-            <ul>
-              <li><Link href="/">Startseite</Link></li>
-              <li><Link href="/team">Team</Link></li>
-              <li><Link href="/contact">Kontakt</Link></li>
-              <li><Link href="/extra">Extra</Link></li>
-            </ul>
-          </nav>
-        </header>
+        <Navbar />
         {children}
         <footer>
           <p>© 2024 Physiotherapie Antonio Baptista. Alle Rechte vorbehalten.</p>

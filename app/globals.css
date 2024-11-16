@@ -83,31 +83,6 @@ button:disabled {
   margin-bottom: 20px;
 }
 
-/* Navbar */
-.navbar {
-  background-color: #007acc; /* Light Blue */
-  color: white;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.navbar ul {
-  display: flex;
-  gap: 20px;
-}
-
-.navbar li {
-  display: inline;
-}
-
-.navbar a {
-  color: white;
-  font-weight: bold;
-}
-
 /* Hero Section */
 .hero {
   background-color: #e3f2fd; /* Very Light Blue */
