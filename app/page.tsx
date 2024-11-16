@@ -32,21 +32,41 @@ export default function App() {
   }
 
   return (
-    <main>
-      <h1>La praxis del menor!</h1>
-      <button onClick={createTodo}>+ new</button>
-      <ul>
-        {todos.map((todo) => (
-          <li key={todo.id}>{todo.content}</li>
-        ))}
-      </ul>
-      <div>
-        🥳 App successfully hosted. Try creating a new todo.
-        <br />
-        <a href="https://docs.amplify.aws/nextjs/start/quickstart/nextjs-app-router-client-components/">
-          Review next steps of this tutorial.
-        </a>
-      </div>
+    <main className="landing-page">
+      <header className="navbar">
+        <h1>Physiotherapie Antonio Baptista</h1>
+        <nav>
+          <ul>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+            <li><a href="#extras">Extras</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section className="hero">
+        <h2>Willkommen bei Physiotherapie Antonio Baptista</h2>
+        <p>Ihr Weg zu besserer Gesundheit beginnt hier.</p>
+      </section>
+
+      <section id="team" className="section">
+        <h3>Unser Team</h3>
+        <p>Unser engagiertes Team von professionellen Physiotherapeuten ist für Sie da.</p>
+      </section>
+
+      <section id="contact" className="section">
+        <h3>Kontaktieren Sie uns</h3>
+        <p>Besuchen Sie uns vor Ort oder nehmen Sie online Kontakt mit uns auf!</p>
+      </section>
+
+      <section id="extras" className="section">
+        <h3>Extras</h3>
+        <p>Entdecken Sie zusätzliche Ressourcen und Dienstleistungen, die wir anbieten.</p>
+      </section>
+
+      <footer>
+        <p>© 2024 Physiotherapie Antonio Baptista. Alle Rechte vorbehalten.</p>
+      </footer>
     </main>
   );
 }
