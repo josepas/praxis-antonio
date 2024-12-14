@@ -18,10 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de">
-      <body>
+      <body className="layout">
         <Navbar />
-        {children}
-        <footer>
+        <main className="content">
+          {children}
+        </main>
+        <footer className="footer">
           <p>© 2024 Physiotherapie Antonio Baptista. Alle Rechte vorbehalten.</p>
         </footer>
       </body>

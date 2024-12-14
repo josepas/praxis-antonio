@@ -17,7 +17,7 @@ export default function HomePage() {
         Lebensqualität zu verbessern.
       </p>
       <Link href="/contact">
-        <button>Kontaktieren Sie uns</button>
+        <button className="btn-primary">Kontaktieren Sie uns</button>
       </Link>
     </section>
   );
