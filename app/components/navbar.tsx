@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="logo-container">
         <Link href="/">
           <Image
-            src="/logo.png"
+            src="/javierlogo.svg"
             alt="Physiotherapie Antonio Baptista Logo"
             width={200}
             height={80}
