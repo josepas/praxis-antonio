@@ -1,0 +1,58 @@
+.contact-section {
+    padding: 40px 20px;
+    background-color: #f9fbfd; /* Subtle background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+    line-height: 1.6;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    color: #005b9a;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-description {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    color: #005b9a;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-hours h4 {
+    font-size: 1.5rem;
+    color: #005b9a;
+    margin-bottom: 10px;
+  }
+  
+  .contact-hours ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-hours ul li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-location {
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #333;
+  }
+  
