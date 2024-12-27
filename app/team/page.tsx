@@ -3,60 +3,102 @@ import '../globals.css';
 import './team.css';
 import Image from 'next/image';
 
-
-
 export default function Team() {
   return (
-    <section>
-      <h3>Unser Team</h3>
-      <p>Unser engagiertes Team von professionellen Physiotherapeuten ist für Sie da.</p>
-      
+    <>
+      <section className="about-section">
+        <h3 className="about-title">Über Uns</h3>
+        <p className="about-description">
+          Physiotherapie Antonio Baptista – Ihre Gesundheit und deren Wiederherstellung steht bei uns im Mittelpunkt.
+        </p>
+        <div className="about-highlights">
+          <ul>
+            <li>Erfahrene Physiotherapeuten mit modernster Ausbildung.</li>
+            <li>Persönliche Betreuung und maßgeschneiderte Therapiepläne.</li>
+            <li>Freundliche und entspannte Atmosphäre.</li>
+          </ul>
+        </div>
+        <p className="about-goal">
+          Unser Ziel ist es, Ihre Mobilität, Lebensqualität und Schmerzfreiheit wiederherzustellen.
+        </p>
+      </section>
+
       <section className="team-list">
-        <div className="team-member">
-          <Image
-            src="/team-member1.jpg"
-            alt="Teammitglied 1"
-            width={150}
-            height={150}
-            className="team-photo"
-          />
-          <div className="team-info">
-            <h4>Maria Schmidt</h4>
-            <p><strong>Erfahrung:</strong> 10 Jahre</p>
-            <p><strong>Geburtsdatum:</strong> 15. Januar 1985</p>
+        <h3 className="team-title">Unser Team</h3>
+        <p className="team-description">Lernen Sie unsere Experten kennen:</p>
+
+        <div className="grid-container">
+          <div className="team-member">
+            <Image
+              src="/team-member1.jpg"
+              alt="Antonio Baptista"
+              width={150}
+              height={150}
+              className="team-photo"
+            />
+            <div className="team-info">
+              <h4>Herr Antonio Baptista</h4>
+              <p><strong>Rolle:</strong> Praxisinhaber, Physiotherapeut</p>
+            </div>
           </div>
-        </div>
-        
-        <div className="team-member">
-          <Image
-            src="/team-member2.jpg"
-            alt="Teammitglied 2"
-            width={150}
-            height={150}
-            className="team-photo"
-          />
-          <div className="team-info">
-            <h4>Thomas Müller</h4>
-            <p><strong>Erfahrung:</strong> 8 Jahre</p>
-            <p><strong>Geburtsdatum:</strong> 22. Juni 1990</p>
+
+          <div className="team-member">
+            <Image
+              src="/team-member2.jpg"
+              alt="J. Möller"
+              width={150}
+              height={150}
+              className="team-photo"
+            />
+            <div className="team-info">
+              <h4>Frau J. Möller</h4>
+              <p><strong>Rolle:</strong> Physiotherapeutin</p>
+            </div>
           </div>
-        </div>
-        
-        <div className="team-member">
-          <Image
-            src="/team-member3.jpg"
-            alt="Teammitglied 3"
-            width={150}
-            height={150}
-            className="team-photo"
-          />
-          <div className="team-info">
-            <h4>Anna Fischer</h4>
-            <p><strong>Erfahrung:</strong> 5 Jahre</p>
-            <p><strong>Geburtsdatum:</strong> 3. März 1995</p>
+
+          <div className="team-member">
+            <Image
+              src="/team-member3.jpg"
+              alt="R. Strobel"
+              width={150}
+              height={150}
+              className="team-photo"
+            />
+            <div className="team-info">
+              <h4>Frau R. Strobel</h4>
+              <p><strong>Rolle:</strong> Physiotherapeutin</p>
+            </div>
+          </div>
+
+          <div className="team-member">
+            <Image
+              src="/team-member3.jpg"
+              alt="M. Hebel"
+              width={150}
+              height={150}
+              className="team-photo"
+            />
+            <div className="team-info">
+              <h4>Frau M. Hebel</h4>
+              <p><strong>Rolle:</strong> Physiotherapeutin</p>
+            </div>
+          </div>
+
+          <div className="team-member">
+            <Image
+              src="/team-member3.jpg"
+              alt="C. Gathmann B."
+              width={150}
+              height={150}
+              className="team-photo"
+            />
+            <div className="team-info">
+              <h4>Frau C. Gathmann B.</h4>
+              <p><strong>Rolle:</strong> Physiotherapeutin</p>
+            </div>
           </div>
         </div>
       </section>
-    </section>
+    </>
   );
 }
