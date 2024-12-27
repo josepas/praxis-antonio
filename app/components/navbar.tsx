@@ -25,6 +25,8 @@ export default function Navbar() {
           <li><Link href="/leistungen">Unsere Leistungen</Link></li>
           <li><Link href="/team">Team</Link></li>
           <li><Link href="/contact">Kontakt</Link></li>
+          <li><Link href="/impressum">Impressum</Link></li>
+          <li><Link href="/datenschutz">Datenschutz</Link></li>
         </ul>
       </nav>
     </header>
