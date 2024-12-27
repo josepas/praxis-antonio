@@ -10,11 +10,11 @@ Amplify.configure(outputs);
 export default function HomePage() {
   return (
     <section>
-      <h1>Willkommen bei Physiotherapie Antonio Baptista</h1>
+      <h1>Willkommen bei der Physiotherapie Antonio Baptista</h1>
       <p>
-        Ihre Gesundheit und Ihr Wohlbefinden sind unsere Priorität. Wir bieten
-        professionelle Physiotherapie-Dienstleistungen an, um Ihre Mobilität und
-        Lebensqualität zu verbessern.
+        Ihre Gesundheit und Ihr Wohlbefinden sind fur uns ein wichtiges Zeil.
+        Wir bieten professionelle Physiotherapie-Dienstleistungen an, um Ihre
+        Mobilität und Lebensqualität zu verbessern.
       </p>
       <Link href="/contact">
         <button className="btn-primary">Kontaktieren Sie uns</button>
