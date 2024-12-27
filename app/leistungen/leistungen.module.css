@@ -1,0 +1,53 @@
+.leistungenSection {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #005b9a; /* Matches global heading color */
+  margin-bottom: 30px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #f9fbfd; /* Matches global background tone */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h4 {
+  font-size: 1.25rem;
+  color: #007acc; /* Matches global link and section header color */
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555; /* Slightly darker than global text color */
+  line-height: 1.5;
+}
+
+.footerText {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #555; /* Harmonizes with card text */
+}

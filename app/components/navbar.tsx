@@ -22,9 +22,9 @@ export default function Navbar() {
       <nav>
         <ul>
           <li><Link href="/">Startseite</Link></li>
+          <li><Link href="/leistungen">Unsere Leistungen</Link></li>
           <li><Link href="/team">Team</Link></li>
           <li><Link href="/contact">Kontakt</Link></li>
-          <li><Link href="/extra">Extra</Link></li>
         </ul>
       </nav>
     </header>
