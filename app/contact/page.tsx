@@ -13,7 +13,7 @@ export default function Contact() {
       <div className="contact-info">
         <p><strong>Adresse:</strong> Wilhelm-Franke- Str. 38, 01219 Dresden</p>
         <p><strong>Telefon:</strong> +49 (0) 351 4723966</p>
-        <p><strong>Handy + Whatsapp:</strong> NUMMER ERGÄNZEN</p>
+        <p><strong>Handy + Whatsapp:</strong> +49 (0)15156897402</p>
         <p><strong>E-Mail:</strong> <a href="mailto:physioantoniobaptista@gmail.com">physioantoniobaptista@gmail.com</a></p>
       </div>
 
