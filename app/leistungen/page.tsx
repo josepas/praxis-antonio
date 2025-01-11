@@ -41,7 +41,7 @@ export default function Leistungen() {
         </div>
         <div className={styles.card}>
           <h4>Craniomandibuläre Dysfunktion (CMD)</h4>
-          <p>Bei gestörtem Zusammenspiel verschiedener Muskeln, Sehnen und Gelenke wird eine schmerzhafte Fehlregulation des Kauapparates ausgelöst.</p>
+          <p>Bei gestörtem Zusammenspiel verschiedener Muskeln, Sehnen und Gelenke wird eine schmerzhafte Fehlregulation des Kauapparates verursacht. Durch gezielte Techniken im und um den Mundbereich werden diese gelöst.</p>
         </div>
         <div className={styles.card}>
           <h4>Atemtherapie</h4>

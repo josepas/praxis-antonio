@@ -25,9 +25,6 @@ export default function Impressum() {
          Heilberufegesetz (HGB) des Bundeslandes Sachsen<br />
          Einsehbar unter: <a href="https://www.recht.sachsen.de/" target="_blank" rel="noopener noreferrer">www.recht.sachsen.de</a></p>
 
-      <p><strong>Umsatzsteuer-ID:</strong><br />
-         DE123456789 (Anpassen, falls zutreffend)</p>
-
       <p><strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong><br />
          Antonio Baptista<br />
          Wilhelm-Franke- Str. 38<br />
