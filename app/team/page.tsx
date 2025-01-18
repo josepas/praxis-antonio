@@ -30,7 +30,7 @@ export default function Team() {
         <div className="grid-container">
           <div className="team-member">
             <Image
-              src="/team-member1.jpg"
+              src="/team-member-javier.jpeg"
               alt="Antonio Baptista"
               width={150}
               height={150}
@@ -44,7 +44,7 @@ export default function Team() {
 
           <div className="team-member">
             <Image
-              src="/team-member2.jpg"
+              src="/team-member-moeller.jpeg"
               alt="J. Möller"
               width={150}
               height={150}
@@ -58,7 +58,7 @@ export default function Team() {
 
           <div className="team-member">
             <Image
-              src="/team-member3.jpg"
+              src="/team-member-strobel.jpeg"
               alt="R. Strobel"
               width={150}
               height={150}
@@ -72,7 +72,7 @@ export default function Team() {
 
           <div className="team-member">
             <Image
-              src="/team-member3.jpg"
+              src="/team-member-hebel.jpeg"
               alt="M. Hebel"
               width={150}
               height={150}
@@ -86,7 +86,7 @@ export default function Team() {
 
           <div className="team-member">
             <Image
-              src="/team-member3.jpg"
+              src="/team-member1.webp"
               alt="C. Gathmann B."
               width={150}
               height={150}
