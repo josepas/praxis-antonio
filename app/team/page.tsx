@@ -86,7 +86,7 @@ export default function Team() {
 
           <div className="team-member">
             <Image
-              src="/team-member-1.webp"
+              src="/team-member-1.jpeg"
               alt="C. Gathmann B."
               width={150}
               height={150}
