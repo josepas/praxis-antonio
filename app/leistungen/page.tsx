@@ -53,7 +53,7 @@ export default function Leistungen() {
         </div>
         <div className={styles.card}>
           <h4>Elektrotherapie</h4>
-          <p>Über Elektroden wird dem Patienten Strom geleitet, um die Heilung zu verbessern. Hauptanwendung findet es zur Muskellockerung oder -stimulation, Durchblutungsförderung und Schmerzreduktion. Beim Ultraschall handelt es sich um eine Kombination von Wärme- und Elektrotherapie. Durch die Schallwellen wird im Gewebe Wärme erzeugt, die zur Gelenk- und Rückenschmerzen-Linderung genutzt wird.</p>
+          <p>Über Elektroden wird dem Patienten Strom zugeleitet, um die Heilung zu verbessern. Hauptanwendung findet diese zur Muskellockerung oder -stimulation, Durchblutungsförderung und Schmerzreduktion. Beim Ultraschall handelt es sich um eine Kombination von Wärme- und Elektrotherapie. Durch die Schallwellen wird im Gewebe Wärme erzeugt, die zur Gelenk- und Rückenschmerzen-Linderung genutzt wird.</p>
         </div>
         <div className={styles.card}>
           <h4>Traktion</h4>

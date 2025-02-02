@@ -12,7 +12,7 @@ export default function HomePage() {
     <section>
       <h1>Willkommen bei der Physiotherapie Antonio Baptista</h1>
       <p>
-        Ihre Gesundheit und Ihr Wohlbefinden sind fur uns ein wichtiges Zeil.
+        Ihre Gesundheit und Ihr Wohlbefinden sind für uns ein wichtiges Ziel.
         Wir bieten professionelle Physiotherapie-Dienstleistungen an, um Ihre
         Mobilität und Lebensqualität zu verbessern.
       </p>
